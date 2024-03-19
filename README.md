@@ -1,4 +1,4 @@
-# Template for `Express` `React` (`Vite`) and `Typescript`
+# Monorepo template with Express React (Vite) and Typescript
 
 Ready to go.
 This is a monorepo template
@@ -7,8 +7,9 @@ This is a monorepo template
 - `Vite`
 - `Typescript`
 
-To start:
-From main repo, backend folder and frontend folder: `pnpm i`
+### To start:
 
-Then go back to the main repo and run `pnpm start`.
+From <b>main repo</b>, <b>backend</b> folder and <b>frontend</b> folder: `pnpm i`
+
+Then go back to the <b>main repo</b> and run `pnpm start`.
 Thanks to `currently`, it will execute both `pnpm dev`from backend and `pnpm start` from frontend folders.
