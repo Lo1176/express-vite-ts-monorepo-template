@@ -1,0 +1,19 @@
+{
+  "name": "express-react-template-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd frontend && pnpm run build",
+    "start": "concurrently \"cd backend && pnpm dev\" \"cd frontend && pnpm start\"",
+    "front": "cd frontend && pnpm run start",
+    "dev": "cd backend && pnpm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
