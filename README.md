@@ -7,9 +7,9 @@ This is a monorepo template
 - `Vite`
 - `Typescript`
 
-### To start:
+##### To start:
 
 From <b>main repo</b>, <b>backend</b> folder and <b>frontend</b> folder: `pnpm i`
 
 Then go back to the <b>main repo</b> and run `pnpm start`.
-Thanks to `currently`, it will execute both `pnpm dev`from backend and `pnpm start` from frontend folders.
+Thanks to [`concurrently`](https://www.npmjs.com/package/concurrently), it will execute both `pnpm dev`from backend and `pnpm start` from frontend folders.
